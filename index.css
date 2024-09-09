@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main{
+    width: 100%;
+}
+.side{
+    width: 20%;
+    height: 140vh;
+    background-color: #16423C;
+
+
+}
+.image img{
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 0px auto;
+    padding: 20px;
+}
+.contact h2{
+    color: white;
+    padding: 10px 20px;
+}
+.contact hr{
+    display: block;
+    width: 80px;
+    margin: 4px 20px;
+}
+.links{
+    padding: 2px 20px;
+}
+.links p a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 0px;
+}
+.links i{
+    padding-right: 12px;
+}
+.skill h2{
+    color: white;
+    padding: 10px 20px;
+}
+.skill hr{
+    display: block;
+    width: 50px;
+    margin: 4px 20px;
+}
+.skills{
+    padding: 2px 20px;
+}
+.skills ul li{
+    list-style-type: none;
+    color: white;
+    padding: 10px 0px;
+    
+}
+.skills ul li i{
+    padding-right: 12px;
+    font-size: 20px;
+}
+.Language h2{
+    color: white;
+    padding: 10px 20px;
+}
+.Language hr{
+    display: block;
+    width: 90px;
+    margin: 4px 20px;
+}
+.languages{
+    padding: 10px 20px;
+}
+.languages ul li{
+    list-style-type: none;
+    color: white;
+    padding: 10px 0px;
+}
+.languages ul li i{
+    padding:0px 12px;
+    font-size: 20px;
+    
+    
+}
+.suleman{
+    width: 80%;
+    height: 100vh;
+    background-color: ;
+    padding: 20px;
+}
+.jango{
+    width: 80%;
+    height: 20vh;
+    background-color: #6A9C89;
+    display: block;
+    margin: 10px auto;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.jango hr{
+    display: block0;
+    width: 110px;
+    margin: 10px auto;
+    background-color: white;
+    height: 2px;
+    font-weight: bold;
+    border: 0;
+}
+.jango h2{
+    font-size: 33px;
+}
+.jango h2,h3{
+    color: white;
+}
+.summary{
+    padding: 20px 120px;
+}
+.summary h2{
+    color: #16423C;
+
+}
+.summary hr{
+    display: block0;
+    width: 120px;
+    margin: 12px 0px 10px;
+    background-color: #16423C;
+    height: 2px;
+    font-weight: bold;
+    border: 0;
+}
+.summary ul{
+   
+}
+.summary ul li{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.Experience{
+    padding: 20px 115px;
+}
+.Experience h2{
+    color: #16423C;
+}
+.Experience hr{
+    display: block0;
+    width: 150px;
+    margin: 12px 0px 10px;
+    background-color: #16423C;
+    height: 2px;
+    font-weight: bold;
+    border: 0;
+}
+.edit{
+    padding: 5px 0px;
+}
+.edit p{
+    padding: 10px 0px;
+    font-weight: 800;
+}
+.edit h2{
+    color: black;
+}
+.exp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.duration h3{
+    color: #6A9C89;
+}
+.Education{
+    padding: 20px 115px;
+}
+.Education h2{
+    color: #16423C;
+}
+.Education hr{
+    display: block0;
+    width: 110px;
+    margin: 12px 0px 10px;
+    background-color: #16423C;
+    height: 2px;
+    font-weight: bold;
+    border: 0;
+}
+.btn{
+    display: block;
+    width: 100%;
+    background-color: #6A9C89;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 20px 15px;
+}
+
+
+
+
+   
+@media (min-width: 320px) and (max-width: 480px){
+        .container{
+            flex-direction: column-reverse;
+        }
+    .side{
+        width: 100%;
+        height: 150vh;
+    }
+    .suleman{
+        width: 100%;
+        height: 90rem;
+    }
+    .Experience{
+        padding: 20px 10px;
+    }
+    .Education{
+        padding: 20px 10px;
+    }
+    .summary{
+        padding: 20px 10px;
+    }
+
+    .summary ul li{
+        padding: 10px 0px;
+        font-size: 20px;
+        font-weight: 800;
+        list-style: none;
+    }
+    .duration h3{
+      padding: 0px 40px;
+    }
+    .btn{
+        width: 200px;
+        margin: 15px auto;
+    }
+    
+}
